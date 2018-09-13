@@ -1,0 +1,117 @@
+/*Global*/
+* {
+    /*everything is getting closer to each other*/
+    margin: 0px;
+    padding: 0px;
+
+            /* #2 #font #faces */
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+/*App bar*/
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+/*Channels list*/
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+}
+/*pretending that "#sevencontinents" channel is selected and highlighted*/
+.selected-ch {
+    color:#3F51B5;
+    border-left: 4px solid #3F51B5;
+}
+/*channels get bordered*/
+li {
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+/*icons ought to be in the middle*/
+li img {
+    vertical-align: middle;
+}
+/*Tab bar*/
+#tab-bar {
+    background-color:white;
+    text-align: center;
+}
+/*bigger tab buttons*/
+#tab-bar button {
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    width: 33%;
+    height:72px;
+    padding: 16px;
+}
+/*button images can never be next to the text. They have to be on the top*/
+button img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+/*pretending like the new button is highlighted*/
+.selected {
+    color: #3F51B5;
+    border-bottom: 4px solid #3F51B5 !important;
+}
+/*Messages*/
+/*mesage boxes get shape*/
+.message {
+    width: 80%;
+    font-size: medium;
+    box-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+/*messages need a white background and some padding*/
+.message p {
+    background-color: white;
+    padding: 16px;
+}
+/*who does not like colorful buttons*/
+.message button {
+    color: black;
+    background-color:#CDDC39;
+    text-transform: uppercase;
+}
+/*For making the location links black*/
+.message h3 {
+    color: black;
+}
+/*bigger "minutes left"*/
+.message em {
+    font-size: larger;
+    font-style: normal;
+}
+/*my messages supposed to be on the right*/
+.message-me {
+    width: 80%;
+    font-size: medium;
+    margin-bottom: 8px;
+    box-align: right;
+    margin-left: 17.5%;
+}
+/*my message needs a white background too*/
+.message-me p {
+    background-color: white;
+    padding: 16px;
+}
